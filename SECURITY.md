@@ -4,7 +4,7 @@
 
 Please do not open a public issue for security problems.
 
-Report vulnerabilities privately to **security@example.com** (replace with your real contact). Include:
+Report vulnerabilities privately to **hrudu.shibu@opsenes.in**. Include:
 
 - A description of the issue and its impact
 - Steps to reproduce

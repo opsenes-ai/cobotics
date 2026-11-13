@@ -22,7 +22,7 @@ We want participation in this project to be a harassment-free experience for eve
 
 Maintainers may remove, edit, or reject contributions that violate this code, and may temporarily or permanently ban contributors for behavior they deem inappropriate.
 
-Report violations to **conduct@example.com** (replace with your real contact). All reports are handled confidentially.
+Report violations to **hrudu.shibu@opsenes.in**. All reports are handled confidentially.
 
 ## Attribution
 
