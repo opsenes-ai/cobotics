@@ -42,6 +42,11 @@ components/ui/           shadcn/ui components
 lib/                     Shared utilities
 ```
 
+## Community
+
+- [Report a bug or request a feature](https://github.com/opsenes-ai/cobotics/issues/new)
+- [Ask questions and share ideas](https://github.com/opsenes-ai/cobotics/discussions)
+
 ## Project docs
 
 - [Contributing](CONTRIBUTING.md)

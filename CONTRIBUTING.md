@@ -30,4 +30,8 @@ npm run dev
 
 ## Reporting issues
 
-Open an [issue](https://github.com/opsenes-ai/cobotics/issues) with steps to reproduce. For security problems, see [SECURITY.md](SECURITY.md).
+[Open a new issue](https://github.com/opsenes-ai/cobotics/issues/new) with steps to reproduce. For security problems, see [SECURITY.md](SECURITY.md).
+
+## Questions and ideas
+
+Ask questions and share ideas in [GitHub Discussions](https://github.com/opsenes-ai/cobotics/discussions).
