@@ -9,16 +9,19 @@ const links = [
 
 export function ConsoleSidebar() {
   return (
-    <aside className="hidden w-60 shrink-0 border-r bg-background md:block">
+    <aside className="w-full shrink-0 border-b bg-background md:w-60 md:border-r md:border-b-0">
       <div className="flex h-14 items-center border-b px-4">
         <AppLogo href="/console/home" />
       </div>
-      <nav className="flex flex-col gap-1 p-3">
+      <nav
+        aria-label="Console"
+        className="flex gap-1 overflow-x-auto p-3 md:flex-col"
+      >
         {links.map(({ href, label, icon: Icon }) => (
           <Link
             key={href}
             href={href}
-            className="flex items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-muted"
+            className="flex shrink-0 items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-muted"
           >
             <Icon className="size-4" />
             {label}

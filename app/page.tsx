@@ -4,7 +4,7 @@ import { Cta, Features, Hero, Workflow } from "@/components/pages/app/home";
 export default function Home() {
   return (
     <AppLayout>
-      <div className="flex flex-col gap-16">
+      <div className="flex flex-col gap-12 sm:gap-16">
         <Hero />
         <Features />
         <Workflow />

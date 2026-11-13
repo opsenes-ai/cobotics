@@ -1,6 +1,6 @@
 export function Hero() {
   return (
-    <section id="hero" className="py-16 text-center">
+    <section id="hero" className="py-8 text-center sm:py-16">
       <h1 className="whitespace-nowrap text-[clamp(1.25rem,5.2vw,3.75rem)] font-bold tracking-tight">
         AI for autonomous operations.
       </h1>

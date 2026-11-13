@@ -89,6 +89,33 @@
   background: #EDF3D8;
   color: #242721;
 }
+/* Light custom scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d3d9c3 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d3d9c3;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #b8d94e;
+  background-clip: content-box;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
