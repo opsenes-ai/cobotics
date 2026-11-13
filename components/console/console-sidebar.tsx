@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Home, Settings } from "lucide-react";
+import { AppLogo } from "@/components/shared";
 
 const links = [
   { href: "/console/home", label: "Home", icon: Home },
@@ -9,6 +10,9 @@ const links = [
 export function ConsoleSidebar() {
   return (
     <aside className="hidden w-60 shrink-0 border-r bg-background md:block">
+      <div className="flex h-14 items-center border-b px-4">
+        <AppLogo href="/console/home" />
+      </div>
       <nav className="flex flex-col gap-1 p-3">
         {links.map(({ href, label, icon: Icon }) => (
           <Link
