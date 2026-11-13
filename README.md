@@ -13,6 +13,8 @@ Cobotics is a web app built with Next.js (App Router), React, Tailwind CSS and s
 ## Getting started
 
 ```bash
+git clone https://github.com/opsenes-ai/cobotics.git
+cd cobotics
 npm install
 cp .env.example .env.local
 npm run dev

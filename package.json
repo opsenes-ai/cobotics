@@ -2,6 +2,14 @@
   "name": "cobotics",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://opsenes.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opsenes-ai/cobotics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/opsenes-ai/cobotics/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -5,6 +5,8 @@ Thanks for helping improve Cobotics. Please read the [Code of Conduct](CODE_OF_C
 ## Setup
 
 ```bash
+git clone https://github.com/opsenes-ai/cobotics.git
+cd cobotics
 npm install
 cp .env.example .env.local
 npm run dev
@@ -28,4 +30,4 @@ npm run dev
 
 ## Reporting issues
 
-Open an issue with steps to reproduce. For security problems, see [SECURITY.md](SECURITY.md).
+Open an [issue](https://github.com/opsenes-ai/cobotics/issues) with steps to reproduce. For security problems, see [SECURITY.md](SECURITY.md).
