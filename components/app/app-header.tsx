@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { buttonVariants } from "@/components/ui/button";
 
 export function AppHeader() {
   return (
@@ -7,6 +8,17 @@ export function AppHeader() {
         <Link href="/" className="font-semibold">
           Cobotics
         </Link>
+        <nav aria-label="Account" className="flex items-center gap-2">
+          <Link
+            href="/auth/login"
+            className={buttonVariants({ variant: "ghost" })}
+          >
+            Login
+          </Link>
+          <Link href="/auth/signup" className={buttonVariants()}>
+            Get started
+          </Link>
+        </nav>
       </div>
     </header>
   );
